@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: springboot.try2.secondonedb.SecondOneDbApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.083 s <<< FAILURE! - in springboot.try2.secondonedb.SecondOneDbApplicationTests
+contextLoads(springboot.try2.secondonedb.SecondOneDbApplicationTests)  Time elapsed: 0.032 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/springframework/expression/ParserContext
+Caused by: java.lang.ClassNotFoundException: org.springframework.expression.ParserContext
+
